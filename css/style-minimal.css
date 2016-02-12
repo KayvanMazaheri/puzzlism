@@ -414,7 +414,7 @@ sup {
   position: fixed;
   overflow: hidden;
   top: 0;
-  left: -50%;
+  left: +50%;
   background: rgba(32, 35, 45, 0.8);
   width: 100%;
   height: 100%;
@@ -510,13 +510,13 @@ sup {
     transform: translateY(-2000px); } }
 .brand-logo {
   position: absolute;
-  left: 10%;
+  right: 10%;
   top: 5%;
   max-width: 250px; }
 
 #left-side {
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
   width: 50%;
   height: 100%;
@@ -529,7 +529,7 @@ sup {
   #left-side .content {
     position: absolute;
     z-index: 0;
-    left: 0;
+    right: 0;
     padding: 0;
     top: 50vh;
     width: 100%;
@@ -544,7 +544,7 @@ sup {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    text-align: left;
+    text-align: right;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     opacity: 1;
@@ -1240,7 +1240,7 @@ sup {
 /* ------------------------------------- */
 .social-icons {
   position: absolute;
-  left: 10%;
+  right: 10%;
   bottom: 5%;
   margin-left: -22px;
   margin-bottom: -22px;
@@ -1441,7 +1441,7 @@ footer {
 
   .brand-logo {
     position: relative;
-    left: 50%;
+    right: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -1538,7 +1538,7 @@ footer {
     padding: 50px 0 150px; }
     #left-side .content {
       position: relative;
-      left: 50%;
+      left: 0;
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
